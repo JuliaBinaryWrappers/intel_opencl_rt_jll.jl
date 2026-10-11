@@ -1,0 +1,19 @@
+[[intel_opencl_rt]]
+arch = "x86_64"
+git-tree-sha1 = "0087495927f64d006b22823d9b5ac7755ab894d9"
+lazy = true
+libc = "glibc"
+os = "linux"
+
+    [[intel_opencl_rt.download]]
+    sha256 = "3853bbf0a6367dab62c0c68ae534ec53e41481401bf082681d84ec034c792be5"
+    url = "https://github.com/JuliaBinaryWrappers/intel_opencl_rt_jll.jl/releases/download/intel_opencl_rt-v2026.1.2+0/intel_opencl_rt.v2026.1.2.x86_64-linux-gnu.tar.gz"
+[[intel_opencl_rt]]
+arch = "x86_64"
+git-tree-sha1 = "aff08fa9fde356fab08fed75500d289519d33fa6"
+lazy = true
+os = "windows"
+
+    [[intel_opencl_rt.download]]
+    sha256 = "d17b64cd2e71bb9f8d7032dcb95dc329590861161d8cb7943146160a224d87ae"
+    url = "https://github.com/JuliaBinaryWrappers/intel_opencl_rt_jll.jl/releases/download/intel_opencl_rt-v2026.1.2+0/intel_opencl_rt.v2026.1.2.x86_64-w64-mingw32.tar.gz"
